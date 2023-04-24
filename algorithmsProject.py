@@ -36,7 +36,7 @@ def schedule_processes(processors, time_limit):
     return selected_processors#, max_value
 
 
-p = [(1,3,21), (2,6,24), (3,2,12), (4,4,20)]
+p = [(1,3,21), (2,6,24), (3,2,12), (4,4,20)] # THESE ARE THE prosseces THE USER SHOULD INPUT THEM TEHE 
 # print(schedule_processes(p,8))
 op_p=schedule_processes(p,8)
 print('Selected processes:',[i[0] for i in op_p])
